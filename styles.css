@@ -1,0 +1,161 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 237px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/rectangle-1.svg);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 24px;
+    left: 531px;
+    font-family: "Italianno-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 75px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .logo-psicloga {
+    position: absolute;
+    width: 160px;
+    height: 147px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .line {
+    position: absolute;
+    width: 1440px;
+    height: 11px;
+    top: 139px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 165px;
+    left: 309px;
+    font-family: "Italianno-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 165px;
+    left: 505px;
+    font-family: "Italianno-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 165px;
+    left: 748px;
+    font-family: "Italianno-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 165px;
+    left: 937px;
+    font-family: "Italianno-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 154px;
+    top: 909px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(173, 216, 230, 0.51) 0%, rgb(0, 255, 255) 100%);
+  }
+  
+  .desktop .rectangle-wrapper {
+    position: absolute;
+    width: 315px;
+    height: 229px;
+    top: 637px;
+    left: 138px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .rectangle-2 {
+    height: 229px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .rectangle-3 {
+    position: absolute;
+    width: 315px;
+    height: 229px;
+    top: 637px;
+    left: 985px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .rectangle-4 {
+    position: absolute;
+    width: 315px;
+    height: 229px;
+    top: 637px;
+    left: 553px;
+    background-color: #d9d9d9;
+  }
+  
+  .desktop .rectangle-5 {
+    position: absolute;
+    width: 1390px;
+    height: 147px;
+    top: 254px;
+    left: 28px;
+    background-color: #d9d9d9;
+  }
+  
