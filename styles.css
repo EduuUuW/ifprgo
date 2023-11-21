@@ -1,161 +1,196 @@
-.desktop {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .desktop .div {
-    background-color: #ffffff;
-    overflow: hidden;
-    width: 1440px;
-    height: 1024px;
-    position: relative;
-  }
-  
-  .desktop .overlap-group {
-    position: absolute;
-    width: 1440px;
-    height: 237px;
-    top: 0;
-    left: 0;
-    background-image: url(./img/rectangle-1.svg);
-    background-size: 100% 100%;
-  }
-  
-  .desktop .overlap {
-    position: absolute;
-    width: 1440px;
-    height: 150px;
-    top: 0;
-    left: 0;
-  }
-  
-  .desktop .text-wrapper {
-    position: absolute;
-    top: 24px;
-    left: 531px;
-    font-family: "Italianno-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 75px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .logo-psicloga {
-    position: absolute;
-    width: 160px;
-    height: 147px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .desktop .line {
-    position: absolute;
-    width: 1440px;
-    height: 11px;
-    top: 139px;
-    left: 0;
-  }
-  
-  .desktop .text-wrapper-2 {
-    position: absolute;
-    top: 165px;
-    left: 309px;
-    font-family: "Italianno-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .text-wrapper-3 {
-    position: absolute;
-    top: 165px;
-    left: 505px;
-    font-family: "Italianno-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .text-wrapper-4 {
-    position: absolute;
-    top: 165px;
-    left: 748px;
-    font-family: "Italianno-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .text-wrapper-5 {
-    position: absolute;
-    top: 165px;
-    left: 937px;
-    font-family: "Italianno-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .desktop .rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 154px;
-    top: 909px;
-    left: 0;
-    background: linear-gradient(180deg, rgba(173, 216, 230, 0.51) 0%, rgb(0, 255, 255) 100%);
-  }
-  
-  .desktop .rectangle-wrapper {
-    position: absolute;
-    width: 315px;
-    height: 229px;
-    top: 637px;
-    left: 138px;
-    background-color: #d9d9d9;
-  }
-  
-  .desktop .rectangle-2 {
-    height: 229px;
-    background-color: #d9d9d9;
-  }
-  
-  .desktop .rectangle-3 {
-    position: absolute;
-    width: 315px;
-    height: 229px;
-    top: 637px;
-    left: 985px;
-    background-color: #d9d9d9;
-  }
-  
-  .desktop .rectangle-4 {
-    position: absolute;
-    width: 315px;
-    height: 229px;
-    top: 637px;
-    left: 553px;
-    background-color: #d9d9d9;
-  }
-  
-  .desktop .rectangle-5 {
-    position: absolute;
-    width: 1390px;
-    height: 147px;
-    top: 254px;
-    left: 28px;
-    background-color: #d9d9d9;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*Geral*/
+
+body {
+  background-color: #00FFFF;
+}
+
+figcaption {
+  font-family: Arial, sans-serif;
+}
+
+.image-button {
+  background-size: contain;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+.rounded {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/*Pagina contato*/
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#eec {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+/*Rodapé*/
+
+.contact-table {
+  width: 100%;
+  background-color: #00ffff;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+.contact-table td {
+  padding: 10px;
+}
+
+.contact-table td:first-child {
+  width: 30%;
+}
+
+.contact-table td:last-child {
+  text-align: right;
+}
+
+.contact-table td:last-child a:not(:last-child),
+.contact-table td:last-child u:not(:last-child) {
+  margin-right: 10px;
+}
+
+.contact-table td:last-child a::after,
+.contact-table td:last-child u::after {
+  content: "|";
+  margin-left: 10px;
+}
+
+.contact-table td:last-child a:last-child::after,
+.contact-table td:last-child u:last-child::after {
+  content: "";
+  margin-left: 0;
+}
+
+.contact-table td a,
+.contact-table td u {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-table td a:hover,
+.contact-table td u:hover {
+  text-decoration: underline;
+}
+
+/*barra de rolagem*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d0ad8f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d0ad8f;
+}
+
+/*zoom botão*/
+
+.imagem-legenda {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Botão */
+.imagem-legenda img {
+  border: 2px solid #333;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+/* Estilo para a imagem quando o mouse passa por cima, dentro da classe .imagem-legenda */
+.imagem-legenda img:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo para a legenda dentro da classe .imagem-legenda */
+.imagem-legenda figcaption {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Estilo para o link dentro da classe .imagem-legenda */
+.imagem-legenda a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilo para o link quando o mouse passa por cima, dentro da classe .imagem-legenda */
+.imagem-legenda a:hover {
+  color: #555;
+}
+
+/*estilo do menu*/
+
+.menustyle:hover {
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.menustyle:active {
+  transform: scale(1);
+  background-position: 500px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
